@@ -1,0 +1,34 @@
+body {
+/* make the body fits our viewport */
+position: relative;
+width: 100%;
+height: 100vh;
+margin: 0;
+
+/* hide scrollbars */
+overflow: hidden;
+}
+
+#canvas {
+/* make the canvas wrapper fits the window */
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+}
+
+.plane {
+/* define the size of your plane */
+width: 80%;
+max-width: 1400px;
+height: 80vh;
+position: relative;
+top: 10vh;
+margin: 0 auto;
+}
+
+.plane img {
+/* hide the img element */
+display: none;
+}
